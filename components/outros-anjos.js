@@ -1,4 +1,4 @@
-export default function PostPreview({
+export default function AnjoPreview({
   nome,
   brinquedo,
   genero,
