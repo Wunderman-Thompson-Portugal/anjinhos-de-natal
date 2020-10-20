@@ -116,6 +116,7 @@ DATOCMS_API_TOKEN=...
 DATOCMS_PREVIEW_SECRET=...
 ```
 
+
 ### Step 6. Run Next.js in development mode
 
 ```bash
@@ -156,6 +157,7 @@ You should now be able to see the updated title. To exit the preview mode, you c
 
 You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
+
 #### Deploy Your Local Project
 
 To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
@@ -167,3 +169,6 @@ To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-datocms&env=DATOCMS_API_TOKEN,DATOCMS_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20DatoCMS&envLink=https://vercel.link/cms-datocms-env)
+
+### Step 9. Deploy on Netlify
+https://github.com/netlify/next-on-netlify/tree/master#readme
