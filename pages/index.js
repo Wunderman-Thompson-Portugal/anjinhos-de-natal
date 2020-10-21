@@ -29,5 +29,6 @@ export async function getStaticProps({ preview = false }) {
   const allAnjos = (await getAllAnjosForHome(preview)) || []
   return {
     props: { allAnjos },
+    revalidate: 1
   }
 }
