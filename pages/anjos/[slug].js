@@ -18,6 +18,7 @@ export default function Anjo({ anjo, preview }) {
   return (
     <Layout preview={preview}>
       <Container>
+        <Intro />
         {router.isFallback ? (
           <PostTitle>A carregar…</PostTitle>
         ) : (
