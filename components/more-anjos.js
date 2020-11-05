@@ -3,7 +3,7 @@ import OutrosAnjos from './outros-anjos'
 export default function MoreAnjos({ anjos }) {
   return (
     <section>
-      <div className="grid grid-cols-1 gap-3 md:grid-cols-4 md:col-gap-16 lg:col-gap-32 row-gap-20 md:row-gap-32 mb-32">
+      <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:col-gap-16 lg:col-gap-32 row-gap-20 md:row-gap-32 mb-32">
         {anjos.map((anjo) => (
           <OutrosAnjos
             nome={anjo.nome}
